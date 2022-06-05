@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-COPY app/ /src/
+COPY . /src/
 
 RUN apt update && apt install -y hugo
 
